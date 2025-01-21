@@ -1,4 +1,4 @@
-const EXCHANGE_RATE = 27.0;
+const EXCHANGE_RATE = 83.0;
 const convert = inr => {
   if (isNaN(inr)) { 
       throw "Invalid amount"; 
