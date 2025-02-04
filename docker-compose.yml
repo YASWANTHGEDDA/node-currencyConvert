@@ -1,0 +1,15 @@
+version: '3'
+services:
+  app1:
+    build: .
+    environment:
+      - APP_NAME=app1
+    ports:
+      - "1809:2039"
+
+  app2:
+    build: .
+    environment:
+      - APP_NAME=app2
+    ports:
+      - "3920:2039"
