@@ -3,7 +3,7 @@ const path = require("path");
 const app = express();
 const port = 2039;
 
-const replica = process.env.APP_NAME
+// const replica = process.env.APP_NAME || 
 
 
 app.use('/',(req,res)=> {
