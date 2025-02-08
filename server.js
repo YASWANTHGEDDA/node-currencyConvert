@@ -11,7 +11,6 @@ db();
 port = 3030;
 
 
-app.listen(port,() =>{
-    console.log("server is listening");
-    
-})
+app.listen(port, "0.0.0.0", () => {
+    console.log(`Server is listening on port ${port}`);
+});
